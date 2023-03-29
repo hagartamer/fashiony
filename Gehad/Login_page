@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+        body
+        {
+            text-align: center;
+            color:rgb(31, 181, 116);
+        }
+        h1
+        {
+            font-style: italic;
+            /* border:1px solid black; */
+        }
+        .container
+        {
+            width:20%;
+            margin:auto;
+            margin-bottom: 15px;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content:space-evenly;
+            border:1px solid rgb(31, 181, 116);
+        }
+        .inner_box
+        {
+
+            height: 60px;
+            display: inherit;
+            flex-direction: inherit;
+            justify-content: inherit;
+            /* border:1px solid yellow; */
+        }
+        input
+        {
+            width: 175px;
+            height: 30px;
+            align-self: center;
+            text-align: inherit;
+        }
+        .button
+        {
+            background-color: rgb(187, 253, 224);
+        }
+        a:link,a:visited
+        {
+            color:rgb(31, 181, 116);
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+        Porta lorem mollis aliquam ut. Vel facilisis volutpat est velit egestas dui id ornare arcu. Lectus magna fringilla urna porttitor.<br>
+        Facilisis magna etiam tempor orci eu lobortis. Pellentesque id nibh tortor id. Viverra aliquet eget sit amet.<br>
+        Mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Ornare quam viverra orci sagittis eu.<br>
+        Id nibh tortor id aliquet. Nam libero justo laoreet sit. Cras pulvinar mattis nunc sed blandit libero volutpat sed cras.<br>
+    </header>
+    <h1>Log in to your account</h1>
+    <form>
+        <div class="container">
+            <div class="inner_box">
+                <input type="text" name="user-name" placeholder="user-name">
+            </div>
+            <div class="inner_box">
+                <input type="password" name="password" placeholder="password">
+            </div>
+            <div class="inner_box">
+                <input type="button" value="Log in" class="button">
+                <div>
+                    <a href="signup.html" target="blank">Forgot password?</a>
+                </div>
+            </div>
+            <div class="inner_box">
+                <div>
+                    <a href="resetting_password.html" target="blank">New client?</a>
+                </div>
+                <input type="button" value="Sign up" class="button">
+            </div>
+        </div>
+        
+    </form>
+    <footer>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+        Porta lorem mollis aliquam ut. Vel facilisis volutpat est velit egestas dui id ornare arcu. Lectus magna fringilla urna porttitor.<br>
+        Facilisis magna etiam tempor orci eu lobortis. Pellentesque id nibh tortor id. Viverra aliquet eget sit amet.<br>
+        Mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Ornare quam viverra orci sagittis eu.<br>
+        Id nibh tortor id aliquet. Nam libero justo laoreet sit. Cras pulvinar mattis nunc sed blandit libero volutpat sed cras.<br>
+    </footer>
+</body>
+</html>
