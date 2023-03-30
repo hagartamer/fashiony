@@ -75,12 +75,12 @@
             <div class="inner_box">
                 <input type="button" value="Log in" class="button">
                 <div>
-                    <a href="signup.html" target="blank">Forgot password?</a>
+                    <a href="resetting_password.html" target="blank">Forgot password?</a>
                 </div>
             </div>
             <div class="inner_box">
                 <div>
-                    <a href="resetting_password.html" target="blank">New client?</a>
+                    <a href="signup.html" target="blank">New client?</a>
                 </div>
                 <input type="button" value="Sign up" class="button">
             </div>
