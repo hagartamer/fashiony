@@ -1,0 +1,33 @@
+create database shopping_db;
+use shopping_db;
+
+create table client
+(client_id int primary key identity, client_name varchar(50),
+phone_no varchar(50), email varchar(256), passwd char(10));
+
+create table product
+(product_id int primary key identity, product_name varchar(50),
+product_categ varchar(50), material varchar(50), color varchar(50),
+price money, sale float, arrival_date date);
+
+create table orders
+(order_id int primary key identity, 
+client_id int foreign key references client(client_id),
+product_id int foreign key references product(product_id),
+order_date datetime);
+
+create table shipping_operator
+(operator_id int primary key identity,
+operator_name varchar(50), national_id varchar(50), phone_no varchar(50),
+salary money,employment_date date);
+
+create table delivery
+(order_id int foreign key references orders(order_id) primary key,
+operator_id int foreign key references shipping_operator(operator_id),
+delivery_date date);
+
+create table reviews
+(review_id int primary key identity,
+clietn_id int foreign key references client(client_id),
+product_id int foreign key references product(product_id),
+client_review varchar(500));
