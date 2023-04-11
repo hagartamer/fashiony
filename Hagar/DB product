@@ -1,89 +1,76 @@
-use store2
-CREATE TABLE Product (
-    Product_ID int NOT NULL,
-    Product_name varchar(255) NOT NULL,
-    Product_catrgory varchar(255),
-    Product_image varchar,
-  material varchar(255),
-  color varchar(255),
-  price varchar(255),
-  sale varchar(255),
-  arrival_date varchar(255),
-    PRIMARY KEY (Product_ID)
-);
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  dress ,kids ,   ,voile ,black ,13 ,0.1 ,2023-05-01 );
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  dress ,kids ,   ,cotton ,blue ,15,0.1 ,2023-05-04 );
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  dress ,kids ,   ,voile ,beige ,14,0.1 ,2023-09-04  );
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  dress  ,kids   ,  , cotton , baby blue,10,0.1,2023-03-05  );
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  jacket  , kids ,  , cotton , beige,14,0.1,2023-09-02 );
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  dress , kids ,  ,voile  , red,15,0.1,2023-03-02 );
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  dress ,  kids,  ,cotton,blue,11 ,0.1 , 2023-01-05 );
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  overall  ,  kids,  ,cotton,white,10 ,0.1 , 2023-02-04 );
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  dress  , kids, ,tulle, golden,13 ,  0.1, 2023-05-01 );
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  pajamas  , kids, ,gray , 14 , 0.2 , 2023-02-06 );
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  dress  ,  kids, ,cotton,yellow, 15 ,0.1  , 2023-01-04 );
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  jacket  ,  kids,  ,polyester  ,black,14,0.2,2023-04-09  );
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  pajamas  ,  kids,  ,cotton,baby blue,13 ,0.2 , 2023-04-02 );
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  sweater  ,  kids,  ,cotton,black,15 ,0.2 , 2023-05-05 );
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  jumper ,  kids,  ,cotton,green,15 ,0.2 ,2023-02-06  );
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  dress ,  kids,  ,cotton,light brown,14,0.1  ,  2023-01-02);
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  jacket ,  kids, ,polyester, yellow,14 , 0.2 , 2023-05-08 );
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  jacket ,  kids, ,cotton, black,15 ,0.1  , 2023-03-09 );
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  pullover  ,  kids, ,fleece,red, 14 ,  0.2, 2023-06-12 );
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  overall  ,  kids,  , cotton ,red ,11,0.1, 2023-09-25 );
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  sweater  ,  kids,  ,cotton,flamingo ,13,0.1 ,  2023-04-01);
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  t-shirt  ,  kids,  ,cotton,black,13,0.2  ,  2023-02-05);
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  dress  ,  kids,  ,cotton,orange,15 ,0.1 ,2023-01-07  );
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  pants   ,  men,  ,cotton,black, 8 , 0.3 , 2023-07-04 );
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  shirt   ,  men , ,cotton,cyan,  7, 0.3 , 2023-12-04 );
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  sleeve shirt  ,   men  , ,cotton,cyan, 9 ,  0.3, 2023-05-01 );
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  t-shirt  ,    men, ,cotton,white, 11 ,  0.3, 2023-02-06 );
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  sleeve shirt  ,    men, ,cotton,beige,7 ,  0.3,  2023-07-02);
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  jacket ,    men,  ,leather,black,14 ,  0.3,  2023-09-25);
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  jacket ,  men,  ,polyester,navy, 11 ,  0.3,  2023-10-24);
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  jacket  ,    men , , polyester,beige,  8,  0.3, 2023-07-04 );
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  sleeve shirt ,    men,  ,cotton,baby blue,9,  0.3, 2023-12-04 );
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  pullover  ,   men , ,fleece,light turquoise, 12 ,  0.3, 2023-03-09 );
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  jean jacket ,    men,  ,cotton,blue, 14,  0.3, 2023-07-16 );
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  jacket ,    men,  ,cotton,dark brown,11, 0.4 ,  2023-05-01);
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  suit ,    men, ,cotton,blue, 24 , 0.4 , 2023-08-18 );
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  sleeve shirt ,    men, ,cotton,brown, 9,  0.4, 2023-06-12 );
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  sweater ,    men,  ,cotton,light navy,7 ,  0.4,  2023-12-04);
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  jacket  ,    men,  ,cotton,brown,14 ,  0.4, 2023-08-14 );
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  suit  ,    men,  ,cotton,black, 19,  0.4,  2023-02-06);
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  sleeve shirt ,    men ,  ,cotton,beige,9 ,  0.4,  2023-10-24);
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  sweater  ,    men , ,cotton,black,16 ,  0.4, 2023-12-04 );
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  shirt ,    men,  ,cotton,brown,8 ,  0.4, 2023-09-04 );
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  jacket ,    men,  ,cotton,black,16 ,  0.4, 2023-03-09 );
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  dress  , women ,  ,cotton,green,18, 0.5 ,  2023-02-06);
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  dress ,women  , ,polyester,light beige, 20, 0.5 , 2023-12-04 );
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  dress  , women ,  ,polyester,light rose,23,0.5  ,  2023-09-25);
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  dress , women , ,cotton ,black,21,  0.5,  2023-07-04);
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  dress ,  women,  ,cotton,blue,16 ,0.5  ,  2023-10-24);
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  dress  ,  women,  ,cotton,black,13 ,  0.5,  2023-03-02 );
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  dress ,  women,  ,polyester,black,14 , 0.5 ,  2023-06-12);
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  mini dress  , women,  ,polyester,sky blue,19  , 0.5 ,  2023-10-01);
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  dress ,  women,  ,cotton,brown,16,  0.5, 2023-07-04 );
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  sleeve dress  , women, ,chiffon ,black,16 , 0.5 , 2023-05-01 );
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  sleeve dress  ,  women, ,crepe ,cyan, 21, 0.5 ,  2023-11-03);
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  sleeve dress ,  women, ,chiffon, green,19 ,  0.5,  2023-05-01);
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  sleeve dress  , women, ,crepe,green, 18 ,  0.5,  2023-12-01);
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  sleeve dress  , women, ,chiffon,red, 20 , 0.5 , 2023-02-06 );
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  jacket , women, ,cotton,black, 14 , 0.5 ,  2023-03-09);
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  jacket , women, ,crepe ,beige,15 ,  0.5,  2023-11-09);
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  blouse , women , ,crepe,off white, 13 ,  0.5,  2023-09-25);
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  suit  , women, ,crepe,pink, 19 ,  0.5,  2023-05-01);
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  jacket  , women, ,crepe ,beige, 16,  0.5, 2023-03-09 );
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  blouse , women ,  ,chiffon ,golden,26, 0.5, 2023-11-03 );
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  jacket  , women ,  ,cotton ,blue,18,  0.5, 2023-02-06 );
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  dress  , women ,  ,cotton,red,19, 0.5 , 2023-03-02  );
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  skirt  , women ,,polyester,brown, 13 , 0.5 ,  2023-05-01);
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  sleeve shirt  , women , ,cotton ,beige, 20$ ,  0.5,  2023-07-04);
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  skirt  , women , ,crepe ,beige,15 ,  0.5, 2023-11-06 );
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  blazer  , women ,  ,wool ,off white,21,  0.5,  2023-10-24);
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  dress  , women , ,crepe ,green,14 ,  0.5, 2023-05-01 );
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  dress , women , ,satin ,light pink,16 ,  0.5, 2023-12-09 );
-insert into Product (name,category,image,material,color,price,sale,arrival_date)values(  pants  ,  women, ,cotton ,baby blue,18 , 0.5 , 2023-03-09 );
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  dress ,kids ,   ,voile ,black ,13 ,0.1 ,2023-05-01 );
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  dress ,kids ,   ,cotton ,blue ,15,0.1 ,2023-05-04 );
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  dress ,kids ,   ,voile ,beige ,14,0.1 ,2023-09-04  );
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  dress  ,kids   ,  , cotton , baby blue,10,0.1,2023-03-05  );
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  jacket  , kids ,  , cotton , beige,14,0.1,2023-09-02 );
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  dress , kids ,  ,voile  , red,15,0.1,2023-03-02 );
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  dress ,  kids,  ,cotton,blue,11 ,0.1 , 2023-01-05 );
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  overall  ,  kids,  ,cotton,white,10 ,0.1 , 2023-02-04 );
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  dress  , kids, ,tulle, golden,13 ,  0.1, 2023-05-01 );
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  pajamas  , kids, ,gray , 14 , 0.2 , 2023-02-06 );
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  dress  ,  kids, ,cotton,yellow, 15 ,0.1  , 2023-01-04 );
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  jacket  ,  kids,  ,polyester  ,black,14,0.2,2023-04-09  );
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  pajamas  ,  kids,  ,cotton,baby blue,13 ,0.2 , 2023-04-02 );
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  sweater  ,  kids,  ,cotton,black,15 ,0.2 , 2023-05-05 );
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  jumper ,  kids,  ,cotton,green,15 ,0.2 ,2023-02-06  );
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  dress ,  kids,  ,cotton,light brown,14,0.1  ,  2023-01-02);
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  jacket ,  kids, ,polyester, yellow,14 , 0.2 , 2023-05-08 );
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  jacket ,  kids, ,cotton, black,15 ,0.1  , 2023-03-09 );
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  pullover  ,  kids, ,fleece,red, 14 ,  0.2, 2023-06-12 );
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  overall  ,  kids,  , cotton ,red ,11,0.1, 2023-09-25 );
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  sweater  ,  kids,  ,cotton,flamingo ,13,0.1 ,  2023-04-01);
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  t-shirt  ,  kids,  ,cotton,black,13,0.2  ,  2023-02-05);
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  dress  ,  kids,  ,cotton,orange,15 ,0.1 ,2023-01-07  );
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  pants   ,  men,  ,cotton,black, 8 , 0.3 , 2023-07-04 );
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  shirt   ,  men , ,cotton,cyan,  7, 0.3 , 2023-12-04 );
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  sleeve shirt  ,   men  , ,cotton,cyan, 9 ,  0.3, 2023-05-01 );
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  t-shirt  ,    men, ,cotton,white, 11 ,  0.3, 2023-02-06 );
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  sleeve shirt  ,    men, ,cotton,beige,7 ,  0.3,  2023-07-02);
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  jacket ,    men,  ,leather,black,14 ,  0.3,  2023-09-25);
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  jacket ,  men,  ,polyester,navy, 11 ,  0.3,  2023-10-24);
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  jacket  ,    men , , polyester,beige,  8,  0.3, 2023-07-04 );
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  sleeve shirt ,    men,  ,cotton,baby blue,9,  0.3, 2023-12-04 );
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  pullover  ,   men , ,fleece,light turquoise, 12 ,  0.3, 2023-03-09 );
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  jean jacket ,    men,  ,cotton,blue, 14,  0.3, 2023-07-16 );
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  jacket ,    men,  ,cotton,dark brown,11, 0.4 ,  2023-05-01);
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  suit ,    men, ,cotton,blue, 24 , 0.4 , 2023-08-18 );
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  sleeve shirt ,    men, ,cotton,brown, 9,  0.4, 2023-06-12 );
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  sweater ,    men,  ,cotton,light navy,7 ,  0.4,  2023-12-04);
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  jacket  ,    men,  ,cotton,brown,14 ,  0.4, 2023-08-14 );
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  suit  ,    men,  ,cotton,black, 19,  0.4,  2023-02-06);
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  sleeve shirt ,    men ,  ,cotton,beige,9 ,  0.4,  2023-10-24);
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  sweater  ,    men , ,cotton,black,16 ,  0.4, 2023-12-04 );
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  shirt ,    men,  ,cotton,brown,8 ,  0.4, 2023-09-04 );
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  jacket ,    men,  ,cotton,black,16 ,  0.4, 2023-03-09 );
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  dress  , women ,  ,cotton,green,18, 0.5 ,  2023-02-06);
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  dress ,women  , ,polyester,light beige, 20, 0.5 , 2023-12-04 );
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  dress  , women ,  ,polyester,light rose,23,0.5  ,  2023-09-25);
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  dress , women , ,cotton ,black,21,  0.5,  2023-07-04);
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  dress ,  women,  ,cotton,blue,16 ,0.5  ,  2023-10-24);
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  dress  ,  women,  ,cotton,black,13 ,  0.5,  2023-03-02 );
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  dress ,  women,  ,polyester,black,14 , 0.5 ,  2023-06-12);
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  mini dress  , women,  ,polyester,sky blue,19  , 0.5 ,  2023-10-01);
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  dress ,  women,  ,cotton,brown,16,  0.5, 2023-07-04 );
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  sleeve dress  , women, ,chiffon ,black,16 , 0.5 , 2023-05-01 );
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  sleeve dress  ,  women, ,crepe ,cyan, 21, 0.5 ,  2023-11-03);
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  sleeve dress ,  women, ,chiffon, green,19 ,  0.5,  2023-05-01);
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  sleeve dress  , women, ,crepe,green, 18 ,  0.5,  2023-12-01);
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  sleeve dress  , women, ,chiffon,red, 20 , 0.5 , 2023-02-06 );
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  jacket , women, ,cotton,black, 14 , 0.5 ,  2023-03-09);
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  jacket , women, ,crepe ,beige,15 ,  0.5,  2023-11-09);
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  blouse , women , ,crepe,off white, 13 ,  0.5,  2023-09-25);
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  suit  , women, ,crepe,pink, 19 ,  0.5,  2023-05-01);
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  jacket  , women, ,crepe ,beige, 16,  0.5, 2023-03-09 );
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  blouse , women ,  ,chiffon ,golden,26, 0.5, 2023-11-03 );
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  jacket  , women ,  ,cotton ,blue,18,  0.5, 2023-02-06 );
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  dress  , women ,  ,cotton,red,19, 0.5 , 2023-03-02  );
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  skirt  , women ,,polyester,brown, 13 , 0.5 ,  2023-05-01);
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  sleeve shirt  , women , ,cotton ,beige, 20$ ,  0.5,  2023-07-04);
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  skirt  , women , ,crepe ,beige,15 ,  0.5, 2023-11-06 );
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  blazer  , women ,  ,wool ,off white,21,  0.5,  2023-10-24);
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  dress  , women , ,crepe ,green,14 ,  0.5, 2023-05-01 );
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  dress , women , ,satin ,light pink,16 ,  0.5, 2023-12-09 );
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  pants  ,  women, ,cotton ,baby blue,18 , 0.5 , 2023-03-09 );
 
 
 
