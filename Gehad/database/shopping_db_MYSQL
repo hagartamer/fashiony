@@ -15,6 +15,7 @@ CREATE TABLE product(
     PRIMARY KEY(product_id),
     product_name varchar(50),
     product_categ varchar(50),
+    img_url varchar(50),
     material varchar(50),
     color varchar(50),
     price float,
