@@ -10,7 +10,7 @@ CREATE TABLE client(
     PRIMARY KEY (client_id)
 );
 
-CREATE TABLE product(
+CREATE TABLE Product(
     product_id int AUTO_INCREMENT,
     PRIMARY KEY(product_id),
     name varchar(50),
