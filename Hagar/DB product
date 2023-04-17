@@ -65,7 +65,7 @@ insert into Product (name,category,img_url,material,color,price,sale,arrival_dat
 insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  jacket  , women ,  ,cotton ,blue,18,  0.5, 2023-02-06 );
 insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  dress  , women ,  ,cotton,red,19, 0.5 , 2023-03-02  );
 insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  skirt  , women ,,polyester,brown, 13 , 0.5 ,  2023-05-01);
-insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  sleeve shirt  , women , ,cotton ,beige, 20$ ,  0.5,  2023-07-04);
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  sleeve shirt  , women , ,cotton ,beige, 20 ,  0.5,  2023-07-04);
 insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  skirt  , women , ,crepe ,beige,15 ,  0.5, 2023-11-06 );
 insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  blazer  , women ,  ,wool ,off white,21,  0.5,  2023-10-24);
 insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  dress  , women , ,crepe ,green,14 ,  0.5, 2023-05-01 );
