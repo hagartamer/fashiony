@@ -6,7 +6,7 @@ CREATE TABLE client(
     client_name varchar(50),
     phone_no varchar(50), 
     email varchar(50), 
-    passwd char(10),
+    passwd varchar(50),
     PRIMARY KEY (client_id)
 );
 
