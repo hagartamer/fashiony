@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>hagar</title>
+  <link rel="stylesheet"href="css/reset.css">
+  <link rel="stylesheet"href="css/main.css">
+</head>  
+<body>
+  <section class="wrapper-main">
+    <form action="example.html"method="get">
+  <h>client profile</h>    
+     <br><br>
+     <br><br>
+     <br><br>
+    <table>
+      <tr>
+        <td>
+    </br></br>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="url of editing profile"></a>
+          <button style="border-radius:6px">
+            Edit profile
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+    </br></br>
+        </td>
+      </tr>
+    </table>  
+    
+      <table>
+  <tr>
+    <th>profile information</th>
+  </tr>
+  <tr>
+    <td>
+      <br/>
+      <br/>
+    </td>
+  <tr>
+    <td>name</td>
+  </tr>
+  <tr>
+    <td>john sanfor</td>
+  </tr>
+  <tr>
+    <td>
+      <br/><br/>
+    </td>
+  </tr>      
+  <tr>
+    <td>email</td>
+  </tr>
+  <tr>
+    <td>john sanfor@gmail.com</td>
+  </tr>
+    
+  <tr>
+    <td>
+      <br/><br/>
+    </td>
+  </tr>      
+  <tr>
+    <td>mobile</td>
+  </tr>
+  <tr>
+    <td>74945765</td>
+  </tr>
+    
+  <tr>
+    <td>
+      <br/><br/>
+    </td>
+  </tr>      
+  <tr>
+    <td>phone</td>
+  </tr>
+  <tr>
+    <td>01067436786</td>
+  </tr> 
+   
+  <tr>
+    <td>
+      <br/><br/>
+    </td>
+  </tr>      
+    <tr>
+    <td>address</td>
+  </tr>
+  <tr>
+    <td>california</td>
+  </tr>
+  <tr>
+    <td>
+      </br></br>
+    </td>
+  </tr>      
+  <tr>
+    <td>
+      <b href="url of home page"></b>
+      <button style="border-radius:6px">
+        Sign out
+      </button>
+    </td>
+  </tr>      
+   </table>
+
+    </form>
+</body>
+</html>
