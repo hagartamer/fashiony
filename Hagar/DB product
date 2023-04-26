@@ -16,7 +16,7 @@ insert into Product (name,category,img_url,material,color,price,sale,arrival_dat
 insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  "dress" ,  "kids1", "kids1/16O.png" ,"cotton","light brown",14,0.1  ,  "2023-01-02");
 insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  "jacket" ,  "kids1","kids1/17O.png" ,"polyester", "yellow",14 , 0.2 , "2023-05-08" );
 insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  "jacket" ,  "kids1","kids1/18O.png" ,"cotton", "black",15 ,0.1  , "2023-03-09" );
-insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  "pullover"  ,  "kids1","kids1/19O.png" ,"fleece","red", 14 ,  0.2, "2023-06-12" );
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  "pullover"  ,  "kids1","kids1/19O.png" ,"cotton","yellow", 14 ,  0.2, "2023-06-12" );
 insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  "overall " ,  "kids1","kids1/20O.png"  , "cotton" ,"red ",11,0.1, "2023-09-25 ");
 insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  "sweater"  , " kids1","kids1/21O.png"  ,"cotton","flamingo" ,13,0.1 , " 2023-04-01");
 insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  "t-shirt " ,  "kids1","kids1/22O.png"  ,"cotton","black",13,0.2  ,  "2023-02-05");
