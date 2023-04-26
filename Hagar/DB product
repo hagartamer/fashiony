@@ -1,7 +1,7 @@
-insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  dress ,kids ,   ,voile ,black ,13 ,0.1 ,2023-05-01 );
-insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  dress ,kids ,   ,cotton ,blue ,15,0.1 ,2023-05-04 );
-insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  dress ,kids ,   ,voile ,beige ,14,0.1 ,2023-09-04  );
-insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  dress  ,kids   ,  , cotton , baby blue,10,0.1,2023-03-05  );
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  "dress" ,"kids" ,"1O"   ,"voile" ,"black" ,13 ,0.1 ,"2023-05-01" );
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  "dress" ,"kids" ,"2O"   ,"cotton" ,"blue" ,15,0.1 ,"2023-05-04" );
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  "dress" ,"kids" ,"3O"   ,"voile" ,"beige" ,14,0.1 ,"2023-09-04"  );
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  "dress"  ,"kids"   ,"4O"  , "cotton" , "baby blue",10,0.1,"2023-03-05"  );
 insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  jacket  , kids ,  , cotton , beige,14,0.1,2023-09-02 );
 insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  dress , kids ,  ,voile  , red,15,0.1,2023-03-02 );
 insert into Product (name,category,img_url,material,color,price,sale,arrival_date)values(  dress ,  kids,  ,cotton,blue,11 ,0.1 , 2023-01-05 );
