@@ -20,7 +20,8 @@ CREATE TABLE Product(
     color varchar(50),
     price float,
     sale float,
-    arrival_date date
+    arrival_date date,
+    brand varchar(50)
 );
 
 CREATE TABLE orders(
