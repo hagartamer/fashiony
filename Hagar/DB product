@@ -4,7 +4,7 @@ insert into Product (name,category,img_url,material,color,price,sale,arrival_dat
 insert into Product (name,category,img_url,material,color,price,sale,arrival_date,brand)values(  "dress"  ,"kids"   ,"kids1/4O.png"  , "cotton" , "baby blue",10,0.1,"2023-03-05"  );
 insert into Product (name,category,img_url,material,color,price,sale,arrival_date,brand)values(  "jacket"  , "kids" ,"kids1/5O.png"  ,"cotton" , "beige",14,0.1,"2023-09-02" );
 insert into Product (name,category,img_url,material,color,price,sale,arrival_date,brand)values(  "dress" , "kids" ,"kids1/6O.png"  ,"voile " , "red",15,0.1,"2023-03-02" );
-insert into Product (name,category,img_url,material,color,price,sale,arrival_date,brand)values(  "dress" , " kids","kids1/7O.png"  ,"cotton","blue',11 ,0.1 ," 2023-01-05" );
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date,brand)values(  "dress" , "kids","kids1/7O.png"  ,"cotton","blue',11 ,0.1 ," 2023-01-05" );
 insert into Product (name,category,img_url,material,color,price,sale,arrival_date,brand)values(  "overall" , "kids","kids1/8O.png"  ,"cotton","white",10 ,0.1 , "2023-02-04" );
 insert into Product (name,category,img_url,material,color,price,sale,arrival_date,brand)values(  "dress"  , "kids","kids1/9O.png" ,"tulle", "golden",13 ,  0.1," 2023-05-01" );
 insert into Product (name,category,img_url,material,color,price,sale,arrival_date,brand)values(  "pajamas" , "kids","kids1/10O.png" ,"gray ", 14 , 0.2 , "2023-02-06 ");
@@ -64,9 +64,9 @@ insert into Product (name,category,img_url,material,color,price,sale,arrival_dat
 insert into Product (name,category,img_url,material,color,price,sale,arrival_date,brand)values(  "blouse", "women","women1/64O.png"  ,"chiffon" ,"golden",26, 0.5, "2023-11-03 ");
 insert into Product (name,category,img_url,material,color,price,sale,arrival_date,brand)values(  "jacket"  , "women","women1/65O.png"  ,"cotton" ,"blue",18,  0.5, "2023-02-06" );
 insert into Product (name,category,img_url,material,color,price,sale,arrival_date,brand)values(  "dress" , "women","women1/66O.png"  ,"cotton","red",19, 0.5 , "2023-03-02  ");
-insert into Product (name,category,img_url,material,color,price,sale,arrival_date,brand)values(  "skirt"  ," women","women1/67O.png","polyester","brown", 13 , 0.5 , " 2023-05-01");
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date,brand)values(  "skirt"  ,"women","women1/67O.png","polyester","brown", 13 , 0.5 , " 2023-05-01");
 insert into Product (name,category,img_url,material,color,price,sale,arrival_date,brand)values(  "sleeve shirt", "women","women1/68O.png" ,"cotton ","beige", 20 ,  0.5,  "2023-07-04");
-insert into Product (name,category,img_url,material,color,price,sale,arrival_date,brand)values(  "skirt"  ," women" ,"women1/69O.png" ,"crepe ","beige",15 ,  0.5, "2023-11-06" );
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date,brand)values(  "skirt"  ,"women" ,"women1/69O.png" ,"crepe ","beige",15 ,  0.5, "2023-11-06" );
 insert into Product (name,category,img_url,material,color,price,sale,arrival_date,brand)values(  "blazer" , "women","women1/70O.png"  ,"wool" ,"off white",21,  0.5,  "2023-10-24");
 insert into Product (name,category,img_url,material,color,price,sale,arrival_date,brand)values(  "dress"  , "women" ,"women1/71O.png" ,"crepe" ,"green",14 ,  0.5," 2023-05-01" );
 insert into Product (name,category,img_url,material,color,price,sale,arrival_date,brand)values(  "dress" , "women","women1/72O.png" ,"satin ","light pink",16 ,  0.5, "2023-12-09 ");
