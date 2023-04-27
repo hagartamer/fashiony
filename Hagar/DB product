@@ -46,18 +46,18 @@ insert into Product (name,category,img_url,material,color,price,sale,arrival_dat
 
 insert into Product (name,category,img_url,material,color,price,sale,arrival_date,brand)values("Floral T-shirt" , "men" , "men1/f1.jpg" , "cotton" , "orange" , 67 , .1 , "2023-2-11" , "SHEIN");
 insert into Product (name,category,img_url,material,color,price,sale,arrival_date,brand)values("Floral T-shirt" , "men" , "men1/f2.jpg" , "cotton" , "green"  , 67 , .1 , "2023-2-11" , "adidas");
-insert into Product (name,category,img_url,material,color,price,sale,arrival_date,brand)values();
-insert into Product (name,category,img_url,material,color,price,sale,arrival_date,brand)values();
-insert into Product (name,category,img_url,material,color,price,sale,arrival_date,brand)values();
-insert into Product (name,category,img_url,material,color,price,sale,arrival_date,brand)values();
-insert into Product (name,category,img_url,material,color,price,sale,arrival_date,brand)values();
-insert into Product (name,category,img_url,material,color,price,sale,arrival_date,brand)values();
-insert into Product (name,category,img_url,material,color,price,sale,arrival_date,brand)values();
-insert into Product (name,category,img_url,material,color,price,sale,arrival_date,brand)values();
-insert into Product (name,category,img_url,material,color,price,sale,arrival_date,brand)values();
-insert into Product (name,category,img_url,material,color,price,sale,arrival_date,brand)values();
-insert into Product (name,category,img_url,material,color,price,sale,arrival_date,brand)values();
-insert into Product (name,category,img_url,material,color,price,sale,arrival_date,brand)values();
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date,brand)values("Floral T-shirt" , "men" , "men1/f2.jpg" , "cotton" , "green"  , 67 , .1 , "2023-2-11" , "adidas");
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date,brand)values("Floral T-shirt" , "men" , "men1/f2.jpg" , "cotton" , "green"  , 67 , .1 , "2023-2-11" , "adidas");
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date,brand)values("Floral T-shirt" , "men" , "men1/f2.jpg" , "cotton" , "green"  , 67 , .1 , "2023-2-11" , "adidas");
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date,brand)values("Classic T-shirt" , "men" , "men1/f2.jpg" , "cotton" , "green"  , 67 , .1 , "2023-2-11" , "adidas");
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date,brand)values("" , "men" , "men1/f2.jpg" , "cotton" , "green"  , 67 , .1 , "2023-2-11" , "adidas");
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date,brand)values("" , "men" , "men1/f2.jpg" , "cotton" , "green"  , 67 , .1 , "2023-2-11" , "adidas");
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date,brand)values("Floral T-shirt" , "men" , "men1/f2.jpg" , "cotton" , "green"  , 67 , .1 , "2023-2-11" , "adidas");
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date,brand)values("Floral T-shirt" , "men" , "men1/f2.jpg" , "cotton" , "green"  , 67 , .1 , "2023-2-11" , "adidas");
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date,brand)values("Classic Shirts" , "men" , "men1/f2.jpg" , "cotton" , "green"  , 67 , .1 , "2023-2-11" , "adidas");
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date,brand)values("Floral T-shirt" , "men" , "men1/f2.jpg" , "cotton" , "green"  , 67 , .1 , "2023-2-11" , "adidas");
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date,brand)values("Floral T-shirt" , "men" , "men1/f2.jpg" , "cotton" , "green"  , 67 , .1 , "2023-2-11" , "adidas");
+insert into Product (name,category,img_url,material,color,price,sale,arrival_date,brand)values("Floral T-shirt" , "men" , "men1/f2.jpg" , "cotton" , "green"  , 67 , .1 , "2023-2-11" , "adidas");
 
 
 insert into Product (name,category,img_url,material,color,price,sale,arrival_date,brand)values(  "dress"  , "women" ,"women1/45O.png" ,"cotton","green",18, 0.5 , " 2023-02-06" ,"SHEIN");
