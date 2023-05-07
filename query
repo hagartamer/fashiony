@@ -1,149 +1,149 @@
 
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("dress" , "kids" , "kids1/1O.png" ,"kids1/1f.png","kids1/1b.png","voile" , "black" , 13 , 0.1 , "2022-05-01" , "SHEIN");
+("dress" , "kids" , "kids/1O.png" ,"kids/1F.png","kids/1B.png","voile" , "black" , 13 , 0.1 , "2022-05-01" , "SHEIN");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("dress" , "kids" , "kids1/2O.png" , "cotton" , "blue" , 15 , 0.1 , "2022-05-04" , "adidas");
+("dress" , "kids" , "kids/2O.png" ,"kids/2F.png", "kids/2B.png","cotton" , "blue" , 15 , 0.1 , "2022-05-04" , "adidas");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-values("dress" , "kids" , "kids1/3O.png" , "voile" , "beige" , 14, 0.1 , "2022-09-04" , "LC Waikiki");
+values("dress" , "kids" , "kids/3O.png" ,"kids/3F.png","kids/3B.png" "voile" , "beige" , 14, 0.1 , "2022-09-04" , "LC Waikiki");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("dress" , "kids" , "kids1/4O.png" , "cotton" , "baby blue" , 10 , 0.1 , "2022-03-05" , "H&M");
+("dress" , "kids" , "kids/4O.png" ,"kids/4F.png","kids/4B.png", "cotton" , "baby blue" , 10 , 0.1 , "2022-03-05" , "H&M");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("jacket" , "kids" , "kids1/5O.png" , "cotton" , "beige" , 14 , 0.1 , "2022-09-02" , "SHEIN");
+("jacket" , "kids" , "kids/5O.png" ,"kids/5F.png","kids/5B.png", "cotton" , "beige" , 14 , 0.1 , "2022-09-02" , "SHEIN");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("dress" , "kids" , "kids1/6O.png" , "voile " , "red" , 15 , 0.1 , "2022-03-02" , "adidas");
+("dress" , "kids" , "kids/6O.png" ,"kids/6F.png","kids/6B.png", "voile " , "red" , 15 , 0.1 , "2022-03-02" , "adidas");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("dress" , "kids" , "kids1/7O.png" , "cotton" , "blue" , 11 , 0.1 , " 2022-01-05" , "LC Waikiki");
+("dress" , "kids" , "kids/7O.png" ,"kids/7F.png","kids/7B.png", "cotton" , "blue" , 11 , 0.1 , " 2022-01-05" , "LC Waikiki");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("overall" , "kids" , "kids1/8O.png" , "cotton" , "white" , 10 , 0.1 , "2022-02-04" , "H&M");
+("overall" , "kids" , "kids/8O.png" ,"kids/8F.png","kids/8B.png", "cotton" , "white" , 10 , 0.1 , "2022-02-04" , "H&M");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("dress" , "kids" , "kids1/9O.png" , "tulle" , "golden" , 13 , 0.1 , " 2022-05-01" , "SHEIN");
+("dress" , "kids" , "kids/9O.png" ,"kids/9F.png","kids/9B.png", "tulle" , "golden" , 13 , 0.1 , " 2022-05-01" , "SHEIN");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("pajamas" , "kids" , "kids1/10O.png" , "cotton" , "gray", 14 , 0.2 , "2022-02-06" , "adidas");
+("pajamas" , "kids" , "kids/10O.png" ,"kids/10F.png","kids/10B.png", "cotton" , "gray", 14 , 0.2 , "2022-02-06" , "adidas");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("dress" , "kids" , "kids1/11O.png" , "cotton" , "yellow" , 15 , 0.1 , "2022-01-04" , "LC Waikiki");
+("dress" , "kids" , "kids/11O.png" ,"kids/11F.png","kids/11B.png", "cotton" , "yellow" , 15 , 0.1 , "2022-01-04" , "LC Waikiki");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("jacket" , "kids" , "kids1/12O.png" , "polyester" , "black" , 14 , 0.2 , "2022-04-09" , "H&M");
+("jacket" , "kids" , "kids/12O.png" ,"kids/12F.png","kids/12B.png", "polyester" , "black" , 14 , 0.2 , "2022-04-09" , "H&M");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("pajamas" , "kids" , "kids1/13O.png" , "cotton" , "baby blue" , 13 , 0.2 , "2022-04-02" , "SHEIN");
+("pajamas" , "kids" , "kids/13O.png" ,"kids/13F.png","kids/13B.png", "cotton" , "baby blue" , 13 , 0.2 , "2022-04-02" , "SHEIN");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("sweater" , "kids" , "kids1/14O.png" , "cotton" , "black" , 15 , 0.2 , "2022-05-05" , "adidas");
+("sweater" , "kids" , "kids/14O.png" ,"kids/14F.png","kids/14B.png", "cotton" , "black" , 15 , 0.2 , "2022-05-05" , "adidas");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("jumper", "kids" , "kids1/15O.png" , "cotton" , "green" , 15 , 0.2 , "2022-02-06" , "LC Waikiki");
+("jumper", "kids" , "kids/15O.png" ,"kids/15F.png","kids/15B.png", "cotton" , "green" , 15 , 0.2 , "2022-02-06" , "LC Waikiki");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("dress" , "kids" , "kids1/16O.png" , "cotton" , "light brown" , 14 , 0.1 , "2022-01-02" , "H&M");
+("dress" , "kids" , "kids/16O.png" ,"kids/16F.png","kids/16B.png", "cotton" , "light brown" , 14 , 0.1 , "2022-01-02" , "H&M");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("jacket" , "kids" , "kids1/17O.png" , "polyester" , "yellow" , 14 , 0.2 , "2022-05-08" , "SHEIN");
+("jacket" , "kids" , "kids/17O.png" ,"kids/17F.png","kids/17B.png", "polyester" , "yellow" , 14 , 0.2 , "2022-05-08" , "SHEIN");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("jacket" , "kids" , "kids1/18O.png" , "cotton" , "black" , 15 , 0.1 , "2022-03-09" , "adidas");
+("jacket" , "kids" , "kids/18O.png" ,"kids/18F.png","kids/18B.png", "cotton" , "black" , 15 , 0.1 , "2022-03-09" , "adidas");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("pullover" , "kids" , "kids1/19O.png" , "cotton" , "yellow" , 14 , 0.2 , "2022-06-12" , "LC Waikiki");
+("pullover" , "kids" , "kids/19O.png" ,"kids/19F.png","kids/19B.png", "cotton" , "yellow" , 14 , 0.2 , "2022-06-12" , "LC Waikiki");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("overall" , "kids" , "kids1/20O.png" , "cotton" , "red" , 11 , 0.1 , "2022-09-25" , "H&M");
+("overall" , "kids" , "kids/20O.png" ,"kids/20F.png","kids/20B.png", "cotton" , "red" , 11 , 0.1 , "2022-09-25" , "H&M");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("sweater" , "kids" , "kids1/21O.png" , "cotton" , "flamingo" , 13 , 0.1 , "2022-04-01" , "SHEIN");
+("sweater" , "kids" , "kids/21O.png" ,"kids/21B.png","kids/21B.png", "cotton" , "flamingo" , 13 , 0.1 , "2022-04-01" , "SHEIN");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("t-shirt" , "kids" , "kids1/22O.png"  , "cotton" , "black" , 13 , 0.2 , "2022-02-05" , "adidas");
+("t-shirt" , "kids" , "kids/22O.png"  ,"kids/22F.png","kids/22B.png", "cotton" , "black" , 13 , 0.2 , "2022-02-05" , "adidas");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("dress" , "kids" , "kids1/23O.png" , "cotton" , "orange" , 15 , 0.1 , "2022-01-07" , "LC Waikiki");
+("dress" , "kids" , "kids/23O.png" ,"kids/23F.png","kids/23B.png", "cotton" , "orange" , 15 , 0.1 , "2022-01-07" , "LC Waikiki");
 
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("pants" , "men" , "men1/24O.png" , "cotton" , "black" , 8 , 0.3 , "2022-07-04" , "SHEIN");
+("pants" , "men" , "men/24O.png" ,"men/24F.png","men/24B.png", "cotton" , "black" , 8 , 0.3 , "2022-07-04" , "SHEIN");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("shirt" , "men" , "men1/25O.png" , "cotton" , "cyan" , 7 , 0.3 , "2022-12-04" , "adidas");
+("shirt" , "men" , "men/25O.png" ,"men/25F.png","men/25B.png", "cotton" , "cyan" , 7 , 0.3 , "2022-12-04" , "adidas");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("sleeve shirt" , "men" , "men1/26O.png" , "cotton", "cyan", 9 , 0.3 , "2022-05-01" , "LC Waikiki");
+("sleeve shirt" , "men" , "men/26O.png" ,"men/26F.png","men/26B.png", "cotton", "cyan", 9 , 0.3 , "2022-05-01" , "LC Waikiki");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("t-shirt" , "men" , "men1/27O.png" , "cotton", "white" , 11 , 0.3, "2022-02-06" , "H&M");
+("t-shirt" , "men" , "men/27O.png" ,"men/27F.png","men/27B.png", "cotton", "white" , 11 , 0.3, "2022-02-06" , "H&M");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("sleeve shirt" , "men" , "men1/28O.png" , "cotton" , "beige" , 7 , 0.3, "2022-07-02" , "SHEIN");
+("sleeve shirt" , "men" , "men/28O.png" ,"men/28F.png","men/28B.png", "cotton" , "beige" , 7 , 0.3, "2022-07-02" , "SHEIN");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-(  "jacket" , "men","men1/29O.png"  ,"leather","black",14 ,  0.3," 2022-09-25" ,"adidas");
+(  "jacket" , "men","men/29O.png"  ,"men/29F.png","men/29B.png","leather","black",14 ,  0.3," 2022-09-25" ,"adidas");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("jacket" , "men" , "men1/30O.png" , "polyester" , "navy" , 11 , 0.3 , "2022-10-24" , "LC Waikiki");
+("jacket" , "men" , "men/30O.png" ,"men/30F.png","men/30B.png", "polyester" , "navy" , 11 , 0.3 , "2022-10-24" , "LC Waikiki");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("jacket" , "men" , "men1/31O.png" , "polyester" , "beige" , 8 , 0.3 , "2022-07-04" , "H&M");
+("jacket" , "men" , "men/31O.png" ,"men/31F.png","men/31B.png", "polyester" , "beige" , 8 , 0.3 , "2022-07-04" , "H&M");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("sleeve shirt" , "men" , "men1/32O.png" , "cotton" , "baby blue" , 9 , 0.3 , "2022-12-04" , "SHEIN");
+("sleeve shirt" , "men" , "men/32O.png" ,"men/32F.png","men/32B.png", "cotton" , "baby blue" , 9 , 0.3 , "2022-12-04" , "SHEIN");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("pullover" , "men" , "men1/33O.png" , "fleece" , "light turquoise" , 12 , 0.3 , "2022-03-09" , "adidas");
+("pullover" , "men" , "men/33O.png" ,"men/33F.png","men/33B.png", "fleece" , "light turquoise" , 12 , 0.3 , "2022-03-09" , "adidas");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("jean jacket" , "men" , "men1/34O.png" , "cotton" , "blue" , 14 , 0.3 , "2022-07-16" , "LC Waikiki");
+("jean jacket" , "men" , "men/34O.png" ,"men/34F.png","men/34B.png", "cotton" , "blue" , 14 , 0.3 , "2022-07-16" , "LC Waikiki");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("jacket" , "men" , "men1/35O.png" , "cotton" , "dark brown" , 11 , 0.4 , "2022-05-01" , "H&M");
+("jacket" , "men" , "men/35O.png" ,"men/35F.png","men/35B.png", "cotton" , "dark brown" , 11 , 0.4 , "2022-05-01" , "H&M");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("suit" , "men" , "men1/36O.png" , "cotton" , "blue" , 24 , 0.4 , "2022-08-18" , "SHEIN");
+("suit" , "men" , "men/36O.png" ,"men/36F.png","men/36B.png", "cotton" , "blue" , 24 , 0.4 , "2022-08-18" , "SHEIN");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("sleeve shirt" , "men" , "men1/37O.png" , "cotton" , "brown" , 9 , 0.4 , "2022-06-12" , "adidas");
+("sleeve shirt" , "men" , "men/37O.png" ,"men/37F.png","men/37B.png", "cotton" , "brown" , 9 , 0.4 , "2022-06-12" , "adidas");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("sweater" , "men" , "men1/38O.png" , "cotton" , "light navy" , 7 , 0.4, "2022-12-04" , "LC Waikiki");
+("sweater" , "men" , "men/38O.png" ,"men/38F.png","men/38B.png", "cotton" , "light navy" , 7 , 0.4, "2022-12-04" , "LC Waikiki");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("jacket" , "men" , "men1/39O.png" , "cotton" , "brown" , 14 , 0.4 , "2022-08-14" , "H&M");
+("jacket" , "men" , "men/39O.png" ,"men/39F.png","men/39B.png", "cotton" , "brown" , 14 , 0.4 , "2022-08-14" , "H&M");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("suit" , "men" , "men1/40O.png" , "cotton" , "black" , 19 , 0.4, "2022-02-06" , "SHEIN");
+("suit" , "men" , "men/40O.png" ,"men/40F.png","men/40B.png", "cotton" , "black" , 19 , 0.4, "2022-02-06" , "SHEIN");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("sleeve shirt" , "men" , "men1/41O.png" , "cotton" , "beige" , 9 , 0.4, "2022-10-24" , "adidas");
+("sleeve shirt" , "men" , "men/41O.png" ,"men/41F.png","men/41B.png", "cotton" , "beige" , 9 , 0.4, "2022-10-24" , "adidas");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("sweater" , "men" , "men1/42O.png" , "cotton" , "black" , 16 , 0.4 , "2022-12-04" , "LC Waikiki");
+("sweater" , "men" , "men/42O.png" ,"men/42F.png","men/42B.png", "cotton" , "black" , 16 , 0.4 , "2022-12-04" , "LC Waikiki");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("shirt" , "men" , "men1/43O.png" , "cotton" , "brown" , 8 , 0.4, "2022-09-04" , "H&M");
+("shirt" , "men" , "men/43O.png" ,"men/43F.png","men/43B.png", "cotton" , "brown" , 8 , 0.4, "2022-09-04" , "H&M");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("jacket" , "men" , "men1/44O.png" , "cotton" , "black" , 16 , 0.4 , "2022-03-09" , "SHEIN");
+("jacket" , "men" , "men/44O.png" ,"men/44F.png","men/44B.png", "cotton" , "black" , 16 , 0.4 , "2022-03-09" , "SHEIN");
 
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("dress" , "women" , "women1/45O.png" , "cotton" , "green" , 18 , 0.5 , "2022-02-06" , "SHEIN");
+("dress" , "women" , "women/45O.png" ,"women/45F.png","women/45B.png", "cotton" , "green" , 18 , 0.5 , "2022-02-06" , "SHEIN");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("dress" , "women" , "women1/46O.png" , "polyester" , "light beige" , 20 , 0.5 , "2022-12-04" ,"adidas");
+("dress" , "women" , "women/46O.png" ,"women/46F.png","women/46B.png", "polyester" , "light beige" , 20 , 0.5 , "2022-12-04" ,"adidas");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("dress" , "women" , "women1/47O.png" , "polyester" , "light rose" , 23 , 0.5 , "2022-09-25" , "LC Waikiki");
+("dress" , "women" , "women/47O.png" ,"women/47F.png","women/47B.png", "polyester" , "light rose" , 23 , 0.5 , "2022-09-25" , "LC Waikiki");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("dress" , "women" , "women1/48O.png" , "cotton" , "black" , 21 , 0.5 , "2022-07-04" , "H&M");
+("dress" , "women" , "women/48O.png" ,"women/48F.png","women/48B.png", "cotton" , "black" , 21 , 0.5 , "2022-07-04" , "H&M");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("dress" , "women" , "women1/49O.png" , "cotton" , "blue" , 16 , 0.5 , "2022-10-24" ,"SHEIN");
+("dress" , "women" , "women/49O.png" ,"women/49F.png","women/49B.png", "cotton" , "blue" , 16 , 0.5 , "2022-10-24" ,"SHEIN");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("dress" , "women" , "women1/50O.png" , "cotton" , "black" , 13 , 0.5, "2022-03-02" , "adidas");
+("dress" , "women" , "women/50O.png" ,"women/50F.png","women/50B.png", "cotton" , "black" , 13 , 0.5, "2022-03-02" , "adidas");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("dress" , "women" , "women1/51O.png" , "polyester" , "black" , 14 , 0.5 , "2022-06-12" , "LC Waikiki");
+("dress" , "women" , "women/51O.png" ,"women/51F.png","women/51B.png", "polyester" , "black" , 14 , 0.5 , "2022-06-12" , "LC Waikiki");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("mini dress" , "women" , "women1/52O.png" , "polyester" , "sky blue" , 19 , 0.5 , "2022-10-01" , "H&M");
+("mini dress" , "women" , "women/52O.png" ,"women/52F.png","women/52B.png", "polyester" , "sky blue" , 19 , 0.5 , "2022-10-01" , "H&M");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("dress" , "women" , "women1/53O.png" , "cotton" , "brown" , 16 , 0.5, "2022-07-04" , "SHEIN");
+("dress" , "women" , "women/53O.png" ,"women/53F.png","women/53B.png", "cotton" , "brown" , 16 , 0.5, "2022-07-04" , "SHEIN");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("sleeve dress" , "women" , "women1/54O.png" , "chiffon" , "black" , 16 , 0.5 , "2022-05-01" , "adidas");
+("sleeve dress" , "women" , "women/54O.png" ,"women/54F.png","women/54B.png", "chiffon" , "black" , 16 , 0.5 , "2022-05-01" , "adidas");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("sleeve dress" , "women" , "women1/55O.png" , "crepe" , "cyan" , 21 , 0.5 , "2022-11-03" , "LC Waikiki");
+("sleeve dress" , "women" , "women/55O.png" ,"women/55F.png","women/55B.png", "crepe" , "cyan" , 21 , 0.5 , "2022-11-03" , "LC Waikiki");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-values("sleeve dress" , "women" , "women1/56O.png" , "chiffon" , "green" , 19 , 0.5, "2022-05-01" , "H&M");
+values("sleeve dress" , "women" , "women/56O.png" ,"women/56F.png","women/56B.png", "chiffon" , "green" , 19 , 0.5, "2022-05-01" , "H&M");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("sleeve dress" , "women" , "women1/57O.png" , "crepe" , "green" , 18 , 0.5 , "2022-12-01" , "SHEIN");
+("sleeve dress" , "women" , "women/57O.png" ,"women/57F.png","women/57B.png", "crepe" , "green" , 18 , 0.5 , "2022-12-01" , "SHEIN");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("sleeve dress" , "women" , "women1/58O.png" , "chiffon" , "red" , 20 , 0.5 , "2022-02-06" ,"adidas");
+("sleeve dress" , "women" , "women/58O.png" ,"women/58F.png","women/58B.png", "chiffon" , "red" , 20 , 0.5 , "2022-02-06" ,"adidas");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("jacket" , "women" , "women1/59O.png" , "cotton" , "black", 14 , 0.5 , "2022-03-09" , "LC Waikiki");
+("jacket" , "women" , "women/59O.png" ,"women/59F.png","women/59B.png", "cotton" , "black", 14 , 0.5 , "2022-03-09" , "LC Waikiki");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("jacket" , "women" , "women1/60O.png" , "crepe" , "beige" , 15 , 0.5 , "2022-11-09" , "H&M");
+("jacket" , "women" , "women/60O.png" ,"women/60F.png","women/60B.png", "crepe" , "beige" , 15 , 0.5 , "2022-11-09" , "H&M");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("blouse" , "women" , "women1/61O.png" , "crepe" , "off white" , 13 , 0.5, "2022-09-25" , "SHEIN");
+("blouse" , "women" , "women/61O.png" ,"women/61F.png","women/61B.png", "crepe" , "off white" , 13 , 0.5, "2022-09-25" , "SHEIN");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("suit" , "women" , "women1/62O.png" , "crepe" , "pink" , 19 , 0.5 , "2022-05-01" , "adidas");
+("suit" , "women" , "women/62O.png" ,"women/62F.png","women/62B.png", "crepe" , "pink" , 19 , 0.5 , "2022-05-01" , "adidas");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-values("jacket" , "women" , "women1/63O.png" , "crepe" , "beige" , 16, 0.5, "2022-03-09" , "LC Waikiki");
+values("jacket" , "women" , "women/63O.png" ,"women/63F.png","women/63B.png", "crepe" , "beige" , 16, 0.5, "2022-03-09" , "LC Waikiki");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("blouse" , "women" , "women1/64O.png" , "chiffon" , "golden" , 26, 0.5 , "2022-11-03" , "H&M");
+("blouse" , "women" , "women/64O.png" ,"women/64F.png","women/64B.png", "chiffon" , "golden" , 26, 0.5 , "2022-11-03" , "H&M");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("jacket" , "women" , "women1/65O.png" , "cotton" , "blue" , 18, 0.5, "2022-02-06" , "SHEIN");
+("jacket" , "women" , "women/65O.png" ,"women/65F.png","women/65B.png", "cotton" , "blue" , 18, 0.5, "2022-02-06" , "SHEIN");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("dress" , "women" , "women1/66O.png" , "cotton" , "red" , 19 , 0.5 , "2022-03-02" , "adidas");
+("dress" , "women" , "women/66O.png" ,"women/66F.png","women/66B.png", "cotton" , "red" , 19 , 0.5 , "2022-03-02" , "adidas");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("skirt" , "women" , "women1/67O.png" , "polyester" , "brown" , 13 , 0.5 , "2022-05-01" , "LC Waikiki");
+("skirt" , "women" , "women/67O.png" ,"women/67F.png","women/67B.png", "polyester" , "brown" , 13 , 0.5 , "2022-05-01" , "LC Waikiki");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("sleeve shirt" , "women" , "women1/68O.png" , "cotton" , "beige" , 20 , 0.5, "2022-07-04" , "H&M");
+("sleeve shirt" , "women" , "women/68O.png" ,"women/68F.png","women/68B.png", "cotton" , "beige" , 20 , 0.5, "2022-07-04" , "H&M");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("skirt" , "women" , "women1/69O.png" , "crepe" , "beige" , 15 , 0.5 , "2022-11-06" , "SHEIN");
+("skirt" , "women" , "women/69O.png" ,"women/69F.png","women/69B.png", "crepe" , "beige" , 15 , 0.5 , "2022-11-06" , "SHEIN");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("blazer" , "women" , "women1/70O.png" , "wool" , "off white" , 21 , 0.5 , "2022-10-24" , "adidas");
+("blazer" , "women" , "women/70O.png" ,"women/70F.png","women/70B.png", "wool" , "off white" , 21 , 0.5 , "2022-10-24" , "adidas");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("dress" , "women" , "women1/71O.png" , "crepe" , "green" , 14 , 0.5 , "2022-05-01" , "LC Waikiki");
+("dress" , "women" , "women/71O.png" ,"women/71F.png","women/71B.png", "crepe" , "green" , 14 , 0.5 , "2022-05-01" , "LC Waikiki");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("dress" , "women" , "women1/72O.png" , "satin" , "light pink" , 16 , 0.5 , "2022-12-09" , "H&M");
+("dress" , "women" , "women/72O.png" ,"women/72F.png","women/72B.png", "satin" , "light pink" , 16 , 0.5 , "2022-12-09" , "H&M");
 insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("pants" , "women" , "women1/73O.png" , "cotton" , "baby blue" , 18 , 0.5 , "2022-03-09" , "SHEIN");
+("pants" , "women" , "women/73O.png" ,"women/73F.png","women/73B.png", "cotton" , "baby blue" , 18 , 0.5 , "2022-03-09" , "SHEIN");
