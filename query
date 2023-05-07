@@ -1,6 +1,6 @@
 
-insert into Product (name,category,img_url,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
-("dress" , "kids" , "kids1/1O.png" ,"voile" , "black" , 13 , 0.1 , "2022-05-01" , "SHEIN");
+insert into Product (name,category,img_url_o,img_url_f,img_url_b,material,color,price,sale,arrival_date,brand)values
+("dress" , "kids" , "kids1/1O.png" ,"kids1/1f.png","kids1/1b.png","voile" , "black" , 13 , 0.1 , "2022-05-01" , "SHEIN");
 insert into Product (name,category,img_url,material,color,price,sale,arrival_date,brand)values
 ("dress" , "kids" , "kids1/2O.png" , "cotton" , "blue" , 15 , 0.1 , "2022-05-04" , "adidas");
 insert into Product (name,category,img_url,material,color,price,sale,arrival_date,brand)
