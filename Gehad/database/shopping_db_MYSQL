@@ -7,7 +7,10 @@ CREATE TABLE client(
     last_name varchar(50), 
     email varchar(50), 
     passwd varchar(50),
-    PRIMARY KEY (client_id)
+    PRIMARY KEY (client_id),
+    mobile varchar (10),
+    phone varchar (11),
+    address varchar (50)
 );
 
 CREATE TABLE Product(
