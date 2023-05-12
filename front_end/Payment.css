@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    --main-color: rgba(93, 167, 93, 0.9);
+    --secondary-color: #f6f6f6;
+}
+
+/*global rules*/
+body {
+    font-family: "Old Standard TT", serif;
+    font-family: "Open Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-family: "Shadows Into Light", cursive;
+    font-family: "Sofia Sans Condensed", sans-serif;
+    font-family: "Work Sans", sans-serif;
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 400;
+    background-color: #ffff;
+    color: #1e1e27;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.logo {
+    position: absolute;
+    top: 50px;
+    transform: translateY(-50%);
+    left: 13px;
+    text-transform: uppercase;
+}
+
+.outmost {
+    background-color: var(--main-color);
+    margin-top: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.outmost form {
+    width: 700px;
+    padding: 20px;
+    margin: auto;
+    background-color: var(--secondary-color);
+    border-radius: 3px;
+    box-shadow: 9px 9px 9px rgba(4, 17, 0, 0.1);
+}
+
+.outmost form .Pay {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.outmost form .Pay .col111 {
+    flex: 1 1 250px;
+}
+
+.col111 {
+    position: absolute;
+}
+
+.col1111 {
+    padding-left: 350px;
+}
+
+h1 {
+    text-align: center;
+    padding: 15px;
+    font-size: 22px;
+    color: var(--main-color);
+}
+
+h3 {
+    padding-left: 15px;
+    padding-top: 10px;
+    font-size: 19px;
+    color: var(--main-color);
+}
+
+form {
+    width: 300px;
+    margin-left: 20px;
+    border-radius: 3px;
+}
+
+form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+form input {
+    width: 300px;
+    padding: 7px;
+    border: none;
+    border: 1PX solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+
+input[type=submit] {
+    width: 670px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: var(--main-color);
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+    color: black;
+}
+
+.Terms a {
+    color: var(--main-color);
+}
+
+.information {
+    color: var(--main-color) !important;
+}
+
+.p2 {
+    text-align: center;
+    color: white !important;
+    font-size: 15px;
+    margin-top: -10px;
+
+}
