@@ -1,0 +1,136 @@
+@charset "utf-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    --main-color: rgba(93, 167, 93, 0.9);
+    --secondary-color: #f6f6f6;
+}
+
+/*global rules*/
+body {
+    font-family: "Old Standard TT", serif;
+    font-family: "Open Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-family: "Shadows Into Light", cursive;
+    font-family: "Sofia Sans Condensed", sans-serif;
+    font-family: "Work Sans", sans-serif;
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 400;
+    background-color: #ffff;
+    color: #1e1e27;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.logo {
+    position: absolute;
+    top: 50px;
+    transform: translateY(-50%);
+    left: 13px;
+    text-transform: uppercase;
+}
+
+.outmost {
+    background-color: var(--main-color);
+    margin-top: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.sign-up {
+    width: 360px;
+    height: 600px;
+    margin: auto;
+    background-color: var(--secondary-color);
+    border-radius: 3px;
+    box-shadow: 9px 9px 9px rgba(4, 17, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    padding: 15px;
+    font-size: 22px;
+    color: var(--main-color);
+}
+
+h4 {
+    text-align: center;
+    font-size: 14px;
+    color: var(--main-color);
+}
+
+form {
+    width: 300px;
+    margin-left: 20px;
+    border-radius: 3px;
+}
+
+form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1PX solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+
+input[type=submit] {
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: var(--main-color);
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+    color: black;
+}
+
+.Terms a {
+    color: var(--main-color);
+}
+
+.information {
+    color: var(--main-color) !important;
+}
+
+.p2 {
+    text-align: center;
+    color: white !important;
+    font-size: 15px;
+    margin-top: -10px;
+
+}
+
+
+.LOGIN p a {
+    color: white !important;
+    text-decoration: none;
+
+}
+
+.LOGIN {
+    width: 360px;
+    height: 400px;
+    margin: auto;
+    border-radius: 3px;
+    background-color: #f6f6f6;
+
+}

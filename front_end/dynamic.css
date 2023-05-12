@@ -1,0 +1,57 @@
+.p1{
+    margin-top: 100px;
+    text-align: center;
+    padding: 15px;
+    font-size: large;
+}
+form{
+    position: sticky;
+    top: 100px;
+    z-index: 100;
+}
+.filter-box {
+    padding: 10px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgba(167, 194, 167, 0.9);
+    font-size: large;
+    font-family: "Old Standard TT", serif;
+    font-style: italic;
+
+}
+
+.filter-box .label{
+ color: white; 
+}
+
+.select-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: relative;
+    width: 200px;
+    height: 30px;
+}
+
+.select-container select {
+    width: 100%;
+    border: none;
+    background-color: white;
+    color: rgba(93, 167, 93, 0.9);
+    padding-left: 15px;
+    border-radius: 5px;
+}
+
+.filter-box button {
+    width: 100px;
+    padding: 7px;
+    border: none;
+    border-radius: 6px;
+    background-color: var(--main-color);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
