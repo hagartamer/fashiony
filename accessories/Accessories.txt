@@ -1,0 +1,42 @@
+insert into Product (name,category,img_url_o,price,sale,arrival_date)values
+("sunglasses" , "Accessories" , "Accessories/1O.jpg", 40 , 0.1 , "2022-05-01");
+insert into Product (name,category,img_url_o,price,sale,arrival_date)values
+("sunglasses" , "Accessories" , "Accessories/2O.jpg", 30 , 0.1 , "2022-05-01");
+insert into Product (name,category,img_url_o,price,sale,arrival_date)values
+("sunglasses" , "Accessories" , "Accessories/3O.jpg", 50 , 0.1 , "2022-05-01");
+insert into Product (name,category,img_url_o,price,sale,arrival_date)values
+("hat" , "Accessories" , "Accessories/4O.jpg", 23 , 0.1 , "2022-05-01");
+insert into Product (name,category,img_url_o,price,sale,arrival_date)values
+("hat" , "Accessories" , "Accessories/5O.jpg", 40 , 0.1 , "2022-05-01");
+insert into Product (name,category,img_url_o,price,sale,arrival_date)values
+("hand watch" , "Accessories" , "Accessories/6O.jpg", 55 , 0.1 , "2022-05-01");
+insert into Product (name,category,img_url_o,price,sale,arrival_date)values
+("hand watch" , "Accessories" , "Accessories/7O.jpg", 50 , 0.1 , "2022-05-01");
+insert into Product (name,category,img_url_o,price,sale,arrival_date)values
+("Necktie" , "Accessories" , "Accessories/8O.jpg", 37 , 0.1 , "2022-05-01");
+insert into Product (name,category,img_url_o,price,sale,arrival_date)values
+("Necktie" , "Accessories" , "Accessories/9O.jpg", 20 , 0.1 , "2022-05-01");
+insert into Product (name,category,img_url_o,price,sale,arrival_date)values
+("Necktie" , "Accessories" , "Accessories/10O.jpg", 30 , 0.1 , "2022-05-01");
+insert into Product (name,category,img_url_o,price,sale,arrival_date)values
+("bag" , "Accessories" , "Accessories/11O.jpg", 59 , 0.1 , "2022-05-01");
+insert into Product (name,category,img_url_o,price,sale,arrival_date)values
+("bag" , "Accessories" , "Accessories/12O.jpg", 50 , 0.1 , "2022-05-01");
+insert into Product (name,category,img_url_o,price,sale,arrival_date)values
+("bag" , "Accessories" , "Accessories/13O.jpg", 40 , 0.1 , "2022-05-01");
+insert into Product (name,category,img_url_o,price,sale,arrival_date)values
+("wallet" , "Accessories" , "Accessories/14O.jpg", 14 , 0.1 , "2022-05-01");
+insert into Product (name,category,img_url_o,price,sale,arrival_date)values
+("wallet" , "Accessories" , "Accessories/15O.jpg", 10 , 0.1 , "2022-05-01");
+insert into Product (name,category,img_url_o,price,sale,arrival_date)values
+("belt" , "Accessories" , "Accessories/16O.jpg", 30 , 0.1 , "2022-05-01");
+insert into Product (name,category,img_url_o,price,sale,arrival_date)values
+("belt" , "Accessories" , "Accessories/17O.jpg", 250 , 0.1 , "2022-05-01");
+insert into Product (name,category,img_url_o,price,sale,arrival_date)values
+("belt" , "Accessories" , "Accessories/18O.jpg", 20 , 0.1 , "2022-05-01");
+insert into Product (name,category,img_url_o,price,sale,arrival_date)values
+("bracelet" , "Accessories" , "Accessories/19O.jpg", 11 , 0.1 , "2022-05-01");
+insert into Product (name,category,img_url_o,price,sale,arrival_date)values
+("bracelet" , "Accessories" , "Accessories/20O.jpg", 15 , 0.1 , "2022-05-01");
+insert into Product (name,category,img_url_o,price,sale,arrival_date)values
+("bracelet" , "Accessories" , "Accessories/21O.jpg", 10 , 0.1 , "2022-05-01");
