@@ -1,0 +1,288 @@
+@charset "utf-8";
+* {
+  padding: 0;
+  margin: 0;
+  --main-color: rgba(93, 167, 93, 0.9);
+  --secondary-color: #f6f6f6;
+}
+/*global rules*/
+body {
+  font-family: "Old Standard TT", serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Shadows Into Light", cursive;
+  font-family: "Sofia Sans Condensed", sans-serif;
+  font-family: "Work Sans", sans-serif;
+  font-size: 15px;
+  line-height: 23px;
+  font-weight: 400;
+  background-color: #ffff;
+  color: #1e1e27;
+  width: 100%;
+}
+ul {
+  list-style: none;
+  margin-bottom: 0;
+}
+p {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--main-color);
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+p a {
+  display: inline;
+  position: relative;
+  color: inherit;
+  border-bottom: solid 2px var(--secondary-color);
+  transition: all 200ms ease;
+}
+a,
+a:hover,
+a:active,
+a:link {
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+  color: var(--main-color);
+}
+p a:active {
+  position: relative;
+  color: rgb(59, 148, 59);
+}
+p a:hover {
+  color: rgb(5, 77, 5);
+  background-color: var(--secondary-color);
+}
+p a:hover::after {
+  opacity: 0.7;
+}
+::selection {
+  color: var(--main-color);
+  background-color: var(--secondary-color);
+}
+p::selection {
+  background-color: var(--secondary-color);
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2.3rem;
+}
+h3 {
+  font-size: 2rem;
+}
+h4 {
+  font-size: 1.5rem;
+}
+h5 {
+  font-size: 1.3rem;
+}
+h6 {
+  font-size: 1rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+.col-right {
+  transition: all 0.3s ease;
+}
+::input-placeholder {
+  font-size: 16px !important;
+  font-weight: 500;
+  color: #616a6eb7;
+  opacity: 0.7;
+}
+
+
+.product-detail{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+
+}
+.img-container{
+    width: 30%;
+    /* height: 100px; */
+}
+.big-img{
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.img-container .three-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ .three-img a img{
+  object-fit: cover;
+  width: 120px;
+  margin: 10px;
+   
+}
+
+img:hover{
+    cursor: pointer;
+}
+.details{
+    width: 45%;
+}
+
+
+.product-title {
+    font-size: 24px ;
+    text-transform: uppercase;
+    display: flex;
+}
+
+.product-info {
+    margin: 30px 0;
+    font-size: 22px;
+    display: flex;
+}
+
+.btn-container {
+    display: flex;
+}
+
+.product-buy-btn {
+    text-align: center;
+    margin: 25px;
+    top: 20px;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    background-color: var(--main-color);
+    color:#e0dba7;
+    border: 1px solid var(--secondary-color);
+    cursor: pointer;
+  }
+  .product-buy-btn:hover{
+    border: 1px solid var(--main-color);
+  }
+  .product-cart-btn {
+    text-align: center;
+    margin: 25px;
+    top: 20px;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    background-color: var(--secondary-color);
+    color:var(--main-color);
+    border: 1px solid var(--main-color);
+    cursor: pointer;
+  }
+  .product-cart-btn:hover{
+    border: 1px solid var(--secondary-color);
+  }
+  .review-container {
+    padding: 50px 5vw;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+    margin-bottom: 0;
+  }
+  
+  .review-head {
+    font-size: 30px;
+    font-weight: bold;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    text-transform: uppercase;
+    color: #1e1e27;
+    
+  }
+  .review-head span {
+    color: rgb(194, 172, 134);
+  }
+  .review-card {
+    width: 250px;
+    height: auto;
+  }
+  
+  
+  
+  .review-title {
+    font-size: 1.3rem;
+    margin: 30px 0;
+    text-transform: capitalize;
+    
+  }
+  .review-section p {
+    opacity: 0.7;
+  }
+  .review-headline,
+  .review-field {
+    width: 50%;
+    height: 40px;
+    border: 2px solid #e0dba7;
+    margin: 10px;
+    padding: 10px;
+    line-height: 40px;
+    color: black;
+    border-radius: 0.5rem;
+    outline: none;
+    text-transform: capitalize;
+  }
+  ::placeholder {
+    color: black;
+    opacity: 0.5;
+    font-size: 1rem;
+  }
+  .review-field {
+    height: 160px;
+    resize: none;
+    padding: 0 10px;
+  }
+  .review-field:focus, .review-headline:focus{
+    border-color: var(--main-color);
+  }
+  .review-field:focus::placeholder, .review-headline:focus::placeholder{
+    color:var(--main-color);
+  }
+  .add-review h1{
+    font-size: 30px;
+    font-weight: bold;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    text-transform: uppercase;
+    color: #1e1e27;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .add-review-btn{
+    text-align: center;
+    margin: 25px;
+    display: flex;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    background-color: var(--main-color);
+    color:#e0dba7;
+    border: 1px solid var(--secondary-color);
+    cursor: pointer;
+  }
+  .add-review-btn:hover{
+    border: 1px solid var(--main-color);
+  }
+  
